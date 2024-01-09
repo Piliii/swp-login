@@ -169,15 +169,24 @@ iframe {
   align-items: center;
   padding: 15px;
   background: #9053c7;
+  background-image: image(login100-pic); 
   background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
   background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
   background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
   background: linear-gradient(-135deg, #4158d0, #fff);
 }
 
+.login100-pic {
+  width: 316px;
+}
+
+.login100-pic img {
+  max-width: 100%;
+}
+
 .wrap-login100 {
   width: 960px;
-  background: linear-gradient(-135deg, #4158d0, #fff);
+  background: linear-gradient(-135deg, #fff, #fff);
   border-radius: 10px;
   overflow: hidden;
 
@@ -304,7 +313,7 @@ iframe {
 }
 
 .input100:focus + .focus-input100 + .symbol-input100 {
-  color: #f1ed18;
+  color: #4158d0;
   padding-left: 28px;
 }
 
