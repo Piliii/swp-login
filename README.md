@@ -2,7 +2,7 @@ This is the main repo for the Second Al-Mutafawakeen Public High School website.
 
 Credits go as followed:
 
-Directed by: Nouran ? ?... - Student the Second in Al-Mutafawakeen Public High School
+Directed by: Nouran Mohammed Salah - Student the Second in Al-Mutafawakeen Public High School
 
 Head Developer: Mohammed Nayyef Mohsen - Student the Second in Al-Mutafawakeen Public High School
 
