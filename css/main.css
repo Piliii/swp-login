@@ -135,14 +135,14 @@ iframe {
 [ Utility ]*/
 .txt1 {
   font-family: Poppins-Regular;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.5;
   color: #666666;
 }
 
 .txt2 {
   font-family: Poppins-Regular;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.5;
   color: #666666;
 }
@@ -172,34 +172,26 @@ iframe {
   background-image: image(login100-pic); 
 }
 
-.login100-pic {
-  width: 316px;
-}
-
-.login100-pic img {
-  max-width: 100%;
-}
-
 .wrap-login100 {
   width: 960px;
-  background: linear-gradient(-135deg, #fff, #fff);
-  border-radius: 10px;
+  background: #fff;
+  border-radius: 95px;
   overflow: hidden;
-
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 177px 130px 33px 95px;
+  justify-content: space-evenly;
+  padding: 150px 150px 13px 95px;
 }
 
 /*------------------------------------------------------------------
 [  ]*/
 .login100-pic {
-  width: 316px;
+  width: 317px;
+  padding-right: 15px;
 }
 
 .login100-pic img {
@@ -309,7 +301,7 @@ iframe {
 }
 
 .input100:focus + .focus-input100 + .symbol-input100 {
-  color: #4158d0;
+  color: #f1ed18;
   padding-left: 28px;
 }
 
