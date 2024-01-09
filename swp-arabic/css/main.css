@@ -62,8 +62,11 @@ a:hover {
 }
 
 /*---------------------------------------------*/
-h1,h2,h3,h4,h5,h6 {
+h1 {
+  font-size: 1px;
+  line-height: 1.7;
 	margin: 0px;
+  padding-left: 35px;
 }
 
 p {
@@ -147,6 +150,13 @@ iframe {
   color: #666666;
 }
 
+.h1 {
+  font-size: 16px;
+  line-height: 1.7;
+	margin: 0px;
+  text-align: left;
+}
+
 
 /*//////////////////////////////////////////////////////////////////
 [ login ]*/
@@ -168,13 +178,14 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #4158d0;
+  background: #2a60f3;
   background-image: image(login100-pic); 
 }
 
 .wrap-login100 {
   width: 960px;
   background: #fff;
+  background-image: image(login100-pic);
   border-radius: 95px;
   overflow: hidden;
   display: -webkit-box;
@@ -301,7 +312,7 @@ iframe {
 }
 
 .input100:focus + .focus-input100 + .symbol-input100 {
-  color: #f1ed18;
+  color: #4158d0;
   padding-left: 28px;
 }
 
