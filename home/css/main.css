@@ -77,6 +77,14 @@
     color: #fff;
   }
 
+  .Options-Teachers {
+    font-family: Arabic;
+  }
+
+  .Options-Students {
+    font-family: Arabic;
+  }
+
   #popup-overlay {
   position: fixed;
   top: 0;
