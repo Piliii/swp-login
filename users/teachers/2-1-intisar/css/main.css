@@ -29,12 +29,14 @@
         font-family: English;
         font-size: 20px;
         color: #fff;
+        position: relative;
+        bottom: 525px;
     }
 
     .information-text2 {
         font-family: English;
         position: relative;
-        bottom: 235px;
+        bottom: 655px;
         font-size: 20px;
         white-space: nowrap;
         color: #fff;
@@ -44,8 +46,8 @@
         font-family: English;
         font-size: 20px;
         position: relative;
-        bottom: 350px;
-        right: 55px;
+        bottom: 722px;
+        right: 110px;
         white-space: nowrap;
         color: #fff;
     }
@@ -54,8 +56,8 @@
         font-family: English;
         font-size: 20px;
         position: relative;
-        bottom: 410px;
-        right: 55px;
+        bottom: 760px;
+        right: 75px;
         text-align: center;
         white-space: nowrap;
         color: #fff;
@@ -66,15 +68,16 @@
         font-size: 20px;
         color: #fff;
         position: relative;
-        bottom: 440px;
+        bottom: 785px;
         right: 5px;
         white-space: nowrap;
+        display: flex;
     }
 
     .line {
         display: block;
         position: relative;
-        bottom: 780px;
+        bottom: 1080px;
         right: 155px;
         width: 350px;
         border: 0;
@@ -82,3 +85,15 @@
         margin: 1em 10;
         padding: 0;
         }
+
+.SLogo {
+    width: 317px;
+    padding-right: 15px;
+    position: relative;
+    bottom: 425px;
+    left: 345px;
+}
+
+.SLogo img {
+    max-width: 100%;
+}
