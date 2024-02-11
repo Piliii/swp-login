@@ -61,29 +61,44 @@ font-size: 27px;
 .management-text {
 font-family: English;
 color: #fff;
-font-size: 15px;
+font-size: 20px;
+position: relative;
+bottom: 100px;
 }
 
 .line-2 {
-/* display: block;
+display: block;
 position: relative;
-bottom: 500px;
+bottom: 790px;
 height: 1px;
 border: 0;
 border-top: 1px solid #ccc;
 margin: 1em 0;
-padding: 0;     */
+padding: 0;
 }
 
 .teachers {
 font-family: English;
 text-align: center;
 position: relative;
+white-space: none;
+} 
+
+.teachers-text-title {
+font-family: English;
+color: #fff;
+font-size: 25px;
+position: relative;
+bottom: 850px;
 } 
 
 .teachers-text {
 font-family: English;
 color: #fff;
+position: relative;
+bottom: 830px;
+right: 35px;
+white-space: nowrap;
 }
 
 .head-announcement {

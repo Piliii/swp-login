@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: Arabic;
   src: url('../../fonts/NotoSansArabic/NotoSansArabic_SemiCondensed-Medium.ttf');
   }
@@ -16,15 +16,21 @@
   .background {
   padding: 15px;
   background: #2a60f3;
+  height: 1000px;
+  max-height: 100%;
+  box-sizing: border-box;
   }
   
   .line {
-  height: 1000px;
+  height: 700px;
   width: 0;
   background: #2a60f3;
   border-radius: 0;
   overflow: hidden;
-  padding: 1px 1px 100px;
+  padding: 1px 1px 1000px;
+  position: relative;
+  right: 150px;
+  bottom: 150px;
   }
   
   .intro {
@@ -39,7 +45,7 @@
   margin-left: auto;
   display: flex;
   justify-content: space-evenly;
-  padding: 150px 150px 0 95px;
+  padding: 750px 150px 0 95px;
   }
   
   .news {
@@ -53,12 +59,12 @@
   
   .end {
   color: #fff;
-  /* width: 100%;
+  width: 100%;
   background: #ffffffc9;
   border-radius: 45px;
   margin-left: auto;
   display: flex;
-  padding: 1px 150px 1px 95px; */
+  padding: 1px 150px 1px 95px;
   }
   
   .copyright,
@@ -79,10 +85,34 @@
 
   .Options-Teachers {
     font-family: Arabic;
+    position: relative;
+    bottom: 330px;
+    right: 150px;
   }
 
   .Options-Students {
     font-family: Arabic;
+    position: relative;
+    bottom: 330px;
+    left: 390px;
+  }
+
+  .Teachers-Logo {
+    width: 37px;
+    padding-right: 15px;
+  }
+  
+  .Teachers-Logo img {
+    max-width: 100%;
+  }
+
+  .Students-Logo {
+    width: 37px;
+    padding-right: 15px;
+  }
+  
+  .Students-Logo img {
+    max-width: 100%;
   }
 
   #popup-overlay {
@@ -117,4 +147,20 @@
   padding: 10px 159px;
   margin-top: 10px;
   cursor: pointer;
+  } */
+
+  @font-face {
+  font-family: Arabic;
+  src: url('../../fonts/NotoSansArabic/NotoSansArabic_SemiCondensed-Medium.ttf');
+  }
+  
+  @font-face {
+  font-family: English;
+  src: url('../../fonts/Janna/Janna-LT-Regular.ttf');
+  }
+  
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   }
