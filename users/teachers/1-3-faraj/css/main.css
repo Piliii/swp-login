@@ -30,13 +30,15 @@
         font-size: 20px;
         color: #fff;
         position: relative;
-        bottom: 525px;
+        bottom: 535px;
+        left: 15px;
     }
 
     .information-text2 {
         font-family: English;
         position: relative;
         bottom: 655px;
+        left: 23px;
         font-size: 20px;
         white-space: nowrap;
         color: #fff;
@@ -47,7 +49,7 @@
         font-size: 20px;
         position: relative;
         bottom: 722px;
-        right: 110px;
+        right: 77px;
         white-space: nowrap;
         color: #fff;
     }
@@ -56,8 +58,8 @@
         font-family: English;
         font-size: 20px;
         position: relative;
-        bottom: 760px;
-        right: 75px;
+        bottom: 755px;
+        right: 5px;
         text-align: center;
         white-space: nowrap;
         color: #fff;
@@ -66,18 +68,29 @@
     .information-text5 {
         font-family: English;
         font-size: 20px;
-        color: #fff;
         position: relative;
-        bottom: 785px;
-        right: 5px;
+        bottom: 775px;
+        right: 105px;
+        text-align: center;
         white-space: nowrap;
-        display: flex;
+        color: #fff;
+    }
+
+    .information-text6 {
+        font-family: English;
+        font-size: 20px;
+        position: relative;
+        bottom: 780px;
+        right: 120px;
+        text-align: center;
+        white-space: nowrap;
+        color: #fff;
     }
 
     .line {
         display: block;
         position: relative;
-        bottom: 1080px;
+        bottom: 1130px;
         right: 155px;
         width: 350px;
         border: 0;
