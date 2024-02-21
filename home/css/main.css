@@ -1,4 +1,4 @@
-/* @font-face {
+  @font-face {
   font-family: Arabic;
   src: url('../../fonts/NotoSansArabic/NotoSansArabic_SemiCondensed-Medium.ttf');
   }
@@ -13,154 +13,246 @@
   padding: 0;
   box-sizing: border-box;
   }
-  .background {
-  padding: 15px;
-  background: #2a60f3;
-  height: 1000px;
-  max-height: 100%;
-  box-sizing: border-box;
-  }
-  
-  .line {
-  height: 700px;
-  width: 0;
-  background: #2a60f3;
-  border-radius: 0;
-  overflow: hidden;
-  padding: 1px 1px 1000px;
-  position: relative;
-  right: 150px;
-  bottom: 150px;
-  }
-  
-  .intro {
-  font-family: Arabic;
-  }
-  
-  .wrap {
-  width: 70%;
-  background: #fff;
-  border-radius: 45px;
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 750px 150px 0 95px;
-  }
-  
-  .news {
-  width: 100%;
-  background: #ffffffc9;
-  border-radius: 45px;
-  margin-left: auto;
-  padding: 1px 150px 1px 95px;
-  text-align: right;
-  }
-  
-  .end {
-  color: #fff;
-  width: 100%;
-  background: #ffffffc9;
-  border-radius: 45px;
-  margin-left: auto;
-  display: flex;
-  padding: 1px 150px 1px 95px;
-  }
-  
-  .copyright,
-  .contacts-phonenumber,
-  .contacts-socialmedia,
-  .location {
-  font-family: English;
-  }
-  
-  .head-announcement {
-    background-color: #e64848;
-    text-align: center;
-  }
-  .announcement {
-    font-family: English;
-    color: #fff;
-  }
 
-  .Options-Teachers {
-    font-family: Arabic;
-    position: relative;
-    bottom: 330px;
-    right: 150px;
-  }
+body {
+  -ms-overflow-style: none;
+}
 
-  .Options-Students {
-    font-family: Arabic;
-    position: relative;
-    bottom: 330px;
-    left: 390px;
-  }
+html {
+  scrollbar-width: none;
+}
 
-  .Teachers-Logo {
-    width: 37px;
-    padding-right: 15px;
-  }
-  
-  .Teachers-Logo img {
-    max-width: 100%;
-  }
-
-  .Students-Logo {
-    width: 37px;
-    padding-right: 15px;
-  }
-  
-  .Students-Logo img {
-    max-width: 100%;
-  }
-
-  #popup-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+.img-background {
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.459);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  }
-  
-  #popup {
-  font-family: English;
-  background-color: #4f75e0;
-  text-align: justify;
-  border-radius: 20px;
-  color: #fff;
-  padding: 20px;
-  max-width: 450px;
-  }
-  
-  #close-button {
-  font-family: English;
-  font-size: 15px;
-  background-color: #2a60f3;
-  border-radius: 200px;
-  color: #fff;
-  border: none;
-  padding: 10px 159px;
-  margin-top: 10px;
-  cursor: pointer;
-  } */
-
-  @font-face {
-  font-family: Arabic;
-  src: url('../../fonts/NotoSansArabic/NotoSansArabic_SemiCondensed-Medium.ttf');
-  }
-  
-  @font-face {
-  font-family: English;
-  src: url('../../fonts/Janna/Janna-LT-Regular.ttf');
-  }
-  
-  * {
-  margin: 0;
-  padding: 0;
+  background-image: url("./../../images/Z1Background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   box-sizing: border-box;
+  box-shadow: inset 1070px 200px 1000px 0 #fff;
+}
+
+.Slogo {
+  width: 170px;
+  padding-right: 15px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+.Slogo img {
+  max-width: 100%;
+}
+
+.img-menu {
+  width: 110px;
+  padding-right: 15px;
+  margin-left: 1760px;
+  position: absolute;
+}
+
+.img-menu img {
+  max-width: 100%;
+}
+
+.upper-bar {
+  width: 100%;
+  height: 10%;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 15px;
+}
+
+.title-1 {
+  font-family: English;
+  font-size: 40px;
+  color: #000000;
+  margin-left: 220px;
+  position: absolute;
+  bottom: 30px;
+}
+
+.title-2 {
+  font-family: English;
+  font-size: 35px;
+  color: blue;
+  margin-left: 230px;
+  position: absolute;
+  top: 25px;
+}
+
+.text-title {
+  font-family: English;
+  font-size: 55px;
+  align-items: right;
+  text-align: right;
+  color: #000;
+  position: absolute;
+  top: 190px;
+  left: 465px;
+  margin-left: 200px;
+}
+
+.text-1 {
+  font-family: English;
+  font-size: 30px;
+  align-items: right;
+  text-align: right;
+  color: blue;
+  position: absolute;
+  top: 270px;
+  left: 130px;
+  margin-right: 760px;
+}
+
+.img-1 {
+  width: 317px;
+  padding-right: 15px;
+  margin-left: 250px;
+  position: relative;
+  top: 390px;
+}
+
+.img-1 img {
+  max-width: 100%;
+}
+
+.imgtxt-1 {
+  font-family: Arabic;
+  font-size: 35px;
+  color: #000;
+  position: absolute;
+  bottom: 230px;
+  margin-left: 300px;
+}
+
+.img-2 {
+  width: 317px;
+  padding-right: 15px;
+  margin-left: 600px;
+  position: relative;
+  top: 76px;
+}
+
+.img-2 img {
+  max-width: 100%;
+}
+
+.imgtxt-2 {
+  font-family: Arabic;
+  font-size: 35px;
+  color: #000;
+  position: absolute;
+  bottom: 230px;
+  margin-left: 655px;
+}
+
+.img-3 {
+  width: 317px;
+  padding-right: 15px;
+  margin-top: 19px;
+  margin-left: 950px;
+  position: relative;
+  bottom: 250px;
+}
+
+.img-3 img {
+  max-width: 100%;
+}
+
+.imgtxt-3 {
+  font-family: Arabic;
+  font-size: 35px;
+  color: #000;
+  position: absolute;
+  bottom: 230px;
+  margin-left: 960px;
+}
+
+.lower-bar {
+  height: 400px;
+  background-color: #2a6bce;
+}
+
+.copyright {
+  font-family: English;
+  font-size: 21px;
+  position: absolute;
+  margin-left: 1450px;
+  bottom: -190px;
+}
+
+.C {
+  font-family: English;
+  font-size: 30px;
+  position: absolute;
+  margin-left: 1560px;
+  bottom: -160px;
+}
+
+.contacts-phonenumber {
+  font-family: English;
+  font-size: 21px;
+  position: absolute;
+  margin-left: 857px;
+  bottom: -190px;
+}
+
+.CPN {
+  font-family: English;
+  font-size: 30px;
+  position: absolute;
+  margin-left: 850px;
+  bottom: -160px;
+}
+
+.contacts-socialmedia {
+  font-family: English;
+  font-size: 21px;
+  color: #000;
+  position: absolute;
+  margin-left: 1235px;
+  bottom: -190px;
+}
+
+.CSM {
+  font-family: English;
+  font-size: 30px;
+  color: #000;
+  position: absolute;
+  margin-left: 1200px;
+  bottom: -160px;
+}
+
+.location {
+  font-family: English;
+  font-size: 21px;
+  position: absolute;
+  margin-left: 50px;
+  bottom: -190px;
+}
+
+.L {
+  font-family: English;
+  font-size: 30px;
+  position: absolute;
+  margin-left: 360px;
+  bottom: -160px;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 #00000052;
+  color: #00000052;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 1000px 0 0 0 #00000052;
+  color: rgb(86, 123, 241);
+}
+
+@media only screen and (max-width: 767px) {
+  img-background {
+     background-image: url("./../../images/Z1Background.png");
   }
+}

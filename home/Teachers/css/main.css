@@ -110,3 +110,7 @@ text-align: center;
 font-family: English;
 color: #fff;
 }
+
+html {
+    scroll-behavior: smooth;
+}
