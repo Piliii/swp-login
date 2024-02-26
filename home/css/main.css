@@ -1,23 +1,23 @@
-  @font-face {
+@font-face {
   font-family: Arabic;
   src: url('../../fonts/NotoSansArabic/NotoSansArabic_SemiCondensed-Medium.ttf');
-  }
+}
   
-  @font-face {
+@font-face {
   font-family: English;
   src: url('../../fonts/Janna/Janna-LT-Regular.ttf');
-  }
+}
 
-  @font-face {
+@font-face {
   font-family: English-Bold;
   src: url('../../fonts/Janna/Janna-LT-Bold.ttf');
-  }
-  
-  * {
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  }
+}
 
 body {
   -ms-overflow-style: none;
