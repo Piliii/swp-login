@@ -1,0 +1,55 @@
+    @font-face {
+    font-family: Arabic;
+    src: url('../../../../fonts/NotoSansArabic/NotoSansArabic_SemiCondensed-Medium.ttf');
+    }
+        
+    @font-face {
+    font-family: English;
+    src: url('../../../../fonts/Janna/Janna-LT-Regular.ttf');
+    }
+        
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+html, body {
+    background-color: #2a60f3;
+}
+
+.line {
+    display: block;
+    position: relative;
+    bottom: 1080px;
+    right: 155px;
+    width: 350px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 10;
+    padding: 0;
+}
+
+.SLogo {
+    width: 317px;
+    padding-right: 15px;
+    position: relative;
+    bottom: 425px;
+    left: 345px;
+}
+
+.SLogo img {
+    max-width: 100%;
+}
+
+.circle {
+    background-image: url("../../../images/Z1Profile1");
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    border: 5px solid nothing;
+    position: absolute;
+    top: 450px;
+    margin-left: 150px;
+    overflow: hidden;
+}
