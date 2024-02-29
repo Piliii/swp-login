@@ -1,4 +1,6 @@
 List of To-Dos:
 
 Fix the education institution background image not appearing.
-Finish users/teams directory.
+Make a responsive menu bar.
+Dark and light mode.
+Add padding to text so that it finally works when zooming out & in, etc.

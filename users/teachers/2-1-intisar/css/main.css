@@ -1,99 +1,91 @@
-    @font-face {
+@font-face {
     font-family: Arabic;
     src: url('../../../../fonts/NotoSansArabic/NotoSansArabic_SemiCondensed-Medium.ttf');
-    }
+}
         
-    @font-face {
+@font-face {
     font-family: English;
     src: url('../../../../fonts/Janna/Janna-LT-Regular.ttf');
-    }
+}
         
-    * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-    
-    .background {
-    padding: 24.3%;
-    background: #2a60f3;
-    }
-
-    .information {
-        position: relative;
-        bottom: 100px;
-        text-align: center;
-    }
-
-    .information-text {
-        font-family: English;
-        font-size: 20px;
-        color: #fff;
-        position: relative;
-        bottom: 525px;
-    }
-
-    .information-text2 {
-        font-family: English;
-        position: relative;
-        bottom: 655px;
-        font-size: 20px;
-        white-space: nowrap;
-        color: #fff;
-    }
-
-    .information-text3 {
-        font-family: English;
-        font-size: 20px;
-        position: relative;
-        bottom: 722px;
-        right: 110px;
-        white-space: nowrap;
-        color: #fff;
-    }
-
-    .information-text4 {
-        font-family: English;
-        font-size: 20px;
-        position: relative;
-        bottom: 760px;
-        right: 75px;
-        text-align: center;
-        white-space: nowrap;
-        color: #fff;
-    }
-
-    .information-text5 {
-        font-family: English;
-        font-size: 20px;
-        color: #fff;
-        position: relative;
-        bottom: 785px;
-        right: 5px;
-        white-space: nowrap;
-        display: flex;
-    }
-
-    .line {
-        display: block;
-        position: relative;
-        bottom: 1080px;
-        right: 155px;
-        width: 350px;
-        border: 0;
-        border-top: 1px solid #ccc;
-        margin: 1em 10;
-        padding: 0;
-        }
-
-.SLogo {
-    width: 317px;
-    padding-right: 15px;
-    position: relative;
-    bottom: 425px;
-    left: 345px;
 }
 
-.SLogo img {
-    max-width: 100%;
+html, body {
+    background-color: #2a60f3;
+}
+
+.profile {
+    width: 200px;
+}
+
+.circle {
+    background-image: url("../../../images/Z1Profile1");
+    border-radius: 50%;
+    height: 210px;
+    width: 210px;
+    border: 5px solid #2a60f3;
+    position: absolute;
+    bottom: 710px;
+    margin-left: 850px;
+    overflow: hidden;
+}
+
+
+.information-text {
+    font-family: English;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    margin-left: 780px;
+    top: 255px;
+}
+ 
+.information-text-2 {
+    font-family: English;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    margin-left: 790px;
+    top: 290px;
+}
+
+.information-text-3 {
+    font-family: English;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    margin-left: 710px;
+    top: 325px;
+}
+
+.information-text-4 {
+    font-family: English;
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    margin-left: 800px;
+    top: 360px;
+}
+
+.activities {
+    font-family: English;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    margin-left: 870px;
+    top: 450px;
+}
+
+.activity-1 {
+    width: 1730px;
+    height: 350px;
+    background-color: rgb(117, 240, 199);
+    position: absolute;
+    margin-left: 100px;
+    top: 550px;
+    border-radius: 50px;
 }
