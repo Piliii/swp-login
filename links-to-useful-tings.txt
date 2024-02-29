@@ -1,0 +1,13 @@
+https://www.w3schools.com/howto/howto_css_devices.asp
+https://www.w3schools.com/howto/howto_html_download_link.asp
+https://www.w3schools.com/howto/howto_css_center-vertical.asp
+https://www.w3schools.com/howto/howto_css_center_button.asp
+https://www.w3schools.com/howto/howto_css_responsive_text.asp
+https://www.w3schools.com/howto/howto_js_callout.asp
+https://www.w3schools.com/howto/howto_css_badge.asp
+https://www.w3schools.com/howto/howto_css_contact_chips.asp
+https://www.w3schools.com/howto/howto_html_email_field.asp
+https://www.w3schools.com/howto/howto_js_collapsible.asp
+https://www.w3schools.com/howto/howto_css_delete_modal.asp
+https://www.w3schools.com/howto/howto_css_modals.asp
+https://www.w3schools.com/howto/howto_css_fullscreen_video.asp

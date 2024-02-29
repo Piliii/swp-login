@@ -4,6 +4,11 @@
 }
   
 @font-face {
+  font-family: Arabic-2;
+  src: url('./../../fonts/Arabic-Ubuntu/alfont_com_Ubuntu-Arabic_R.ttf')
+}
+
+@font-face {
   font-family: English;
   src: url('../../fonts/Janna/Janna-LT-Regular.ttf');
 }
@@ -25,7 +30,35 @@ body {
 
 html {
   scrollbar-width: none;
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
+}
+
+/* html::-webkit-scrollbar {
+  width: 20px;
+}
+
+html::-webkit-scrollbar-track {
+  background:  linear-gradient(20deg, rgb(211, 202, 202) 10%, rgb(51, 46, 214) 90%);
+  border: 0.25em solid;
+  border-radius: 100vw;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0px 0px 0px 100vh rgb(0, 0, 0);
+  border-radius: 100vw;
+} */
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url(../images/Z1Loader.gif) center no-repeat #fff;
 }
 
 .img-background {
@@ -372,6 +405,12 @@ html {
   text-align: center;
   position: absolute;
   bottom: -750px;
+}
+
+.version {
+  font-family: Arabic-2;
+  position: absolute;
+  margin-top: -945px;
 }
 
 .down-arrow {

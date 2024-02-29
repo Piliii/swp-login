@@ -4,3 +4,7 @@ Fix the education institution background image not appearing.
 Make a responsive menu bar.
 Dark and light mode.
 Add padding to text so that it finally works when zooming out & in, etc.
+Custom scrollbar.
+Login & Signup.
+Password reset.
+Make website compatiable with other devices.
