@@ -1,0 +1,112 @@
+    @font-face {
+    font-family: Arabic;
+    src: url('../../../../fonts/NotoSansArabic/NotoSansArabic_SemiCondensed-Medium.ttf');
+    }
+        
+    @font-face {
+    font-family: English;
+    src: url('../../../../fonts/Janna/Janna-LT-Regular.ttf');
+    }
+        
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .background {
+    padding: 24.3%;
+    background: #2a60f3;
+    }
+
+    .information {
+        position: relative;
+        bottom: 100px;
+        text-align: center;
+    }
+
+    .information-text {
+        font-family: English;
+        font-size: 20px;
+        color: #fff;
+        position: relative;
+        bottom: 535px;
+        left: 15px;
+    }
+
+    .information-text2 {
+        font-family: English;
+        position: relative;
+        bottom: 655px;
+        left: 23px;
+        font-size: 20px;
+        white-space: nowrap;
+        color: #fff;
+    }
+
+    .information-text3 {
+        font-family: English;
+        font-size: 20px;
+        position: relative;
+        bottom: 722px;
+        right: 77px;
+        white-space: nowrap;
+        color: #fff;
+    }
+
+    .information-text4 {
+        font-family: English;
+        font-size: 20px;
+        position: relative;
+        bottom: 755px;
+        right: 5px;
+        text-align: center;
+        white-space: nowrap;
+        color: #fff;
+    }
+
+    .information-text5 {
+        font-family: English;
+        font-size: 20px;
+        position: relative;
+        bottom: 775px;
+        right: 105px;
+        text-align: center;
+        white-space: nowrap;
+        color: #fff;
+    }
+
+    .information-text6 {
+        font-family: English;
+        font-size: 20px;
+        position: relative;
+        bottom: 780px;
+        right: 120px;
+        text-align: center;
+        white-space: nowrap;
+        color: #fff;
+    }
+
+    .line {
+        display: block;
+        position: relative;
+        bottom: 1130px;
+        right: 155px;
+        width: 350px;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 1em 10;
+        padding: 0;
+        }
+
+.SLogo {
+    width: 317px;
+    padding-right: 15px;
+    position: relative;
+    bottom: 425px;
+    left: 345px;
+}
+
+.SLogo img {
+    max-width: 100%;
+}

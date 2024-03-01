@@ -1,0 +1,187 @@
+@font-face {
+    font-family: Arabic;
+    src: url('../../../fonts/NotoSansArabic/NotoSansArabic_SemiCondensed-Medium.ttf');
+    }
+    
+@font-face {
+    font-family: English;
+    src: url('../../../fonts/Janna/Janna-LT-Regular.ttf');
+    }
+  
+@font-face {
+    font-family: English-Bold;
+    src: url('../../../fonts/Janna/Janna-LT-Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+  
+  body {
+    -ms-overflow-style: none;
+  }
+  
+  html {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+
+  .img-background {
+    height: 100%;
+    background-image: url("./../../images/Z1Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    box-shadow: inset 1070px 200px 1000px 0 #fff;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  .Slogo {
+    width: 220px;
+    padding-right: 15px;
+    margin-left: 30px;
+    position: absolute;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  .Slogo img {
+    max-width: 100%;
+  }
+  
+  .upper-bar {
+    width: 100%;
+    height: 10%;
+    box-shadow: -1875px 10px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 15px;
+  }
+  
+  .upper-bar-2 {
+    width: 100%;
+    height: 10%;
+    box-shadow: 225px 10px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 15px;
+  }
+  
+  .title-1 {
+    font-family: English-Bold;
+    font-size: 40px;
+    color: #000000;
+    margin-left: 220px;
+    position: absolute;
+    bottom: 30px;
+  }
+  
+  .title-2 {
+    font-family: English-Bold;
+    font-size: 35px;
+    color: #2a60f3;
+    margin-left: 230px;
+    position: absolute;
+    top: 35px;
+  }
+  
+  .text-title {
+    font-family: English-Bold;
+    font-size: 55px;
+    align-items: right;
+    text-align: right;
+    color: #000;
+    position: absolute;
+    top: 190px;
+    left: 640px;
+    margin-left: 160px;
+  }
+  
+  .text-1 {
+    font-family: English-Bold;
+    font-size: 29px;
+    align-items: right;
+    text-align: right;
+    color: #000;
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    margin-right: 760px;
+  }
+
+  .seperator {
+    font-family: English;
+    font-size: 25px;
+    margin-left: 140px;
+    color: #2a60f3;
+    position: absolute;
+    bottom: 500px;
+  }
+
+  .profiles {
+    font-family: English;
+    /* This is going to be the circles */
+  }
+
+  .profile-1 {
+    background-image: url("../../../images/Z1Profile1");
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    border: 5px solid blue;
+    position: absolute;
+    top: 450px;
+    margin-left: 150px;
+    overflow: hidden;
+  }
+
+  .profile-1-text-title {
+    font-family: English-Bold;
+    font-size: 30px;
+    color: #000;
+    position: absolute;
+    margin-left: 350px;
+    top: 470px;
+}
+
+  .profile-1-text {
+    font-family: English;
+    font-size: 20px;
+    color: #6F7171;
+    position: absolute;
+    margin-left: 340px;
+    top: 520px;
+  }
+
+  .profile-1-img {
+    width: 200px;
+    zoom: 90%;
+    margin-left: -5px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .profile-1-img img {
+    max-height: 100%;
+  }
+
+  .profile-1-text-title {
+    padding: 0 .25rem;
+    transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+  }
+
+  .profile-1-text-title:hover {
+    box-shadow: inset 1000px 0 0 0 #00000052;
+    color: #ffffffc7;
+  }
+
+  @media only screen and (max-width: 767px) {
+    img-background {
+       background-image: url("./../../images/Z1Background2.png");
+    }
+  }
