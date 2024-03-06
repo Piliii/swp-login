@@ -7,6 +7,11 @@
     font-family: English;
     src: url('../../../../fonts/Janna/Janna-LT-Regular.ttf');
 }
+
+@font-face {
+    font-family: Arabic-2;
+    src: url('../../../../fonts/Arabic-Ubuntu/alfont_com_Ubuntu-Arabic_R.ttf')
+}
         
 * {
     margin: 0;
@@ -16,76 +21,103 @@
 
 html, body {
     background-color: #2a60f3;
+    background-repeat: no-repeat;
+}
+
+.background {
+    height: 937px;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./../../../../images/Z2Background1.png");
+    box-sizing: border-box;
+    box-shadow: inset 1070px 200px 1000px 0 #fff;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .profile {
-    width: 200px;
+    width: 210px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .circle {
-    background-image: url("../../../images/Z1Profile1");
     border-radius: 50%;
     height: 210px;
     width: 210px;
-    border: 5px solid #2a60f3;
+    border: 5px solid nothing;
+    box-shadow: 1px -1px 25px 1px rgb(0, 0, 0);
     position: absolute;
     bottom: 710px;
     margin-left: 850px;
     overflow: hidden;
 }
 
-
 .information-text {
-    font-family: English;
-    font-size: 25px;
-    color: #fff;
+    font-family: Arabic-2;
+    font-size: 45px;
+    color: #000;
     position: absolute;
-    margin-left: 780px;
-    top: 255px;
+    margin-left: 660px;
+    top: 225px;
 }
  
 .information-text-2 {
-    font-family: English;
-    font-size: 25px;
-    color: #fff;
+    font-family: Arabic-2;
+    font-size: 45px;
+    color: #000;
     position: absolute;
-    margin-left: 790px;
-    top: 290px;
+    margin-left: 665px;
+    top: 275px;
 }
 
 .information-text-3 {
-    font-family: English;
-    font-size: 25px;
-    color: #fff;
+    font-family: Arabic-2;
+    font-size: 45px;
+    color: #000000;
     position: absolute;
-    margin-left: 710px;
-    top: 325px;
+    margin-left: 500px;
+    top: 330px;
 }
 
 .information-text-4 {
-    font-family: English;
-    font-size: 25px;
-    color: #fff;
+    font-family: Arabic-2;
+    font-size: 45px;
+    color: #000;
     position: absolute;
-    margin-left: 800px;
-    top: 360px;
+    margin-left: 665px;
+    top: 380px;
 }
 
 .activities {
     font-family: English;
-    font-size: 40px;
+    font-size: 60px;
     color: #fff;
     position: absolute;
-    margin-left: 870px;
-    top: 450px;
+    margin-left: 750px;
+    top: -10px;
 }
 
 .activity-1 {
-    width: 1730px;
+    width: 1700px;
     height: 350px;
-    background-color: rgb(117, 240, 199);
+    background-color: #fff;
     position: absolute;
-    margin-left: 100px;
-    top: 550px;
+    margin-left: 15px;
+    top: 85px;
+    border-radius: 50px;
+}
+
+.activities-all {
+    width: 1730px;
+    height: 450px;
+    background-color: #2a60f3;
+    position: absolute;
+    margin-left: 90px;
+    top: 450px;
     border-radius: 50px;
 }

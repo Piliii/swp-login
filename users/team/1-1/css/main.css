@@ -148,6 +148,23 @@ html, body {
     margin-left: 575px;
     top: 0px;
     border-radius: 50px;
+    background-image: url("./../../../../images/Z2Activity3Shadow.png");
+    text-align: center;
+}
+
+.activity-3-text {
+    font-family: Arabic-2;
+    font-size: 35px;
+    color: #fff;
+    position: relative;
+    top: 120px;
+    transition: all 0.3s ease 0s;
+}
+
+.activity-3-text:hover {
+    color: #e9e9e9;
+    font-size: 40px;
+    transition: all 0.3s ease 0s;
 }
 
 .activities-all {

@@ -30,15 +30,12 @@
 
   .img-background {
     height: 100%;
-    background-image: url("./../../images/Z1Background.png");
+    background-image: url("./../../images/Z1Background2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
     box-shadow: inset 1070px 200px 1000px 0 #fff;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
   }
   
   .Slogo {
@@ -97,19 +94,18 @@
     color: #000;
     position: absolute;
     top: 190px;
-    left: 640px;
+    left: -25px;
     margin-left: 160px;
   }
   
   .text-1 {
     font-family: English-Bold;
     font-size: 29px;
-    align-items: right;
-    text-align: right;
+    text-align: left;
     color: #000;
     position: absolute;
     top: 270px;
-    left: 100px;
+    left: 140px;
     margin-right: 760px;
   }
 
@@ -153,7 +149,7 @@
     font-size: 20px;
     color: #6F7171;
     position: absolute;
-    margin-left: 340px;
+    margin-left: 355px;
     top: 520px;
   }
 
