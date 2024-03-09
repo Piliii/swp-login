@@ -1,0 +1,57 @@
+@font-face {
+    font-family: English-Bold;
+    src: url("./../fonts/Janna/Janna-LT-Bold.ttf");
+}
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+    background-color: #2a60f3;
+    text-align: center;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.card {
+    width: 500px;
+    background-color: white;
+    height: 300px;
+    border-radius: 35px;
+    text-align: center;
+    margin-left: 36.5vw;
+    margin: 250px 0 0 700px;
+}
+
+.Warning {
+    font-family: English-Bold;
+    color: black;
+    padding: 305px 0 0 0;
+}
+
+.card2 {
+    width: 500px;
+    background-color: white;
+    height: 70px;
+    border-radius: 35px;
+    margin: 40px 0 0 700px;
+}
+
+.Proceed {
+    font-family: English-Bold;
+    font-size: 35px;
+    color: black;
+    transition: ease 0.3s;
+}
+
+.Proceed:hover {
+    font-family: English-Bold;
+    font-size: 40px;
+    color: black;
+    transition: ease 0.3s;
+}

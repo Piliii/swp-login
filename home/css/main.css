@@ -114,12 +114,11 @@ html::-webkit-scrollbar-thumb {
   top: 900px;
   padding: 0 .25rem;
   color: black;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .EN:hover {
-  box-shadow: inset 1000px 0 0 0 rgba(153, 130, 3, 0.486);
-  color: #fff;
+  font-family: English-Bold;
+  background-image: url("./../../images/Z1SwitchEnglish.png");
 }
 
 

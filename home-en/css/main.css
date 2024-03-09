@@ -107,19 +107,18 @@ html::-webkit-scrollbar-thumb {
   top: 15px;
 }
 
-.EN {
+.AR {
   font-family: English;
   font-size: 17px;
   position: absolute;
   top: 900px;
   padding: 0 .25rem;
   color: black;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
-.EN:hover {
-  box-shadow: inset 1000px 0 0 0 rgba(48, 122, 30, 0.486);
-  color: #fff;
+.AR:hover {
+  font-family: English-Bold;
+  background-image: url("./../../images/Z1SwitchArabic.png");
 }
 
 .upper-bar-2 {
