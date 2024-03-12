@@ -8,3 +8,4 @@ Custom scrollbar.
 Login & Signup.
 Password reset.
 Make website compatiable with other devices.
+Fix advice.html for phones
