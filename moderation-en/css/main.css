@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Arabic;
+  src: url('../../fonts/NotoSansArabic/NotoSansArabic_SemiCondensed-Medium.ttf');
+}
+  
+@font-face {
+  font-family: Arabic-2;
+  src: url('./../../fonts/Arabic-Ubuntu/alfont_com_Ubuntu-Arabic_R.ttf')
+}
+
+@font-face {
+  font-family: English;
+  src: url('../../fonts/Janna/Janna-LT-Regular.ttf');
+}
+
+@font-face {
+  font-family: English-Bold;
+  src: url('../../fonts/Janna/Janna-LT-Bold.ttf');
+}
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    font-family: English-Bold;
+    background-color: #2a60f3;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+
+  .container {
+    font-family: English-Bold;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+
+  .student-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .student-list li {
+    font-family: English;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+
+  .student-list li:last-child {
+    border-bottom: none;
+  }
+
+  .grade-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .grade-list li {
+    font-family: English;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+
+  .grade-list li:last-child {
+    border-bottom: none;
+  }
