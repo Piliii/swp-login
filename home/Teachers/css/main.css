@@ -180,6 +180,430 @@
     color: #ffffffc7;
   }
 
+  .profile-2 {
+    background-image: url("../../../images/Z1Profile2");
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    border: 5px solid blue;
+    position: absolute;
+    top: 650px;
+    margin-left: 150px;
+    overflow: hidden;
+  }
+
+  .profile-2-text-title {
+    font-family: English-Bold;
+    font-size: 30px;
+    color: #000;
+    position: absolute;
+    margin-left: 350px;
+    top: 670px;
+}
+
+  .profile-2-text {
+    font-family: English;
+    font-size: 20px;
+    color: #6F7171;
+    position: absolute;
+    margin-left: 340px;
+    top: 720px;
+  }
+
+  .profile-2-img {
+    width: 200px;
+    zoom: 90%;
+    margin-left: -5px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  .profile-2-img img {
+    max-height: 100%;
+  }
+
+  .profile-2-text-title {
+    padding: 0 .25rem;
+    transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+  }
+
+  .profile-2-text-title:hover {
+    box-shadow: inset 1000px 0 0 0 #00000052;
+    color: #ffffffc7;
+  }
+
+.profile-3 {
+  background-image: url("../../../images/Z1Profile3");
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border: 5px solid blue;
+  position: absolute;
+  top: 850px;
+  margin-left: 150px;
+  overflow: hidden;
+}
+
+.profile-3-text-title {
+  font-family: English-Bold;
+  font-size: 30px;
+  color: #000;
+  position: absolute;
+  margin-left: 350px;
+  top: 870px;
+}
+
+.profile-3-text {
+  font-family: English;
+  font-size: 20px;
+  color: #6F7171;
+  position: absolute;
+  margin-left: 340px;
+  top: 920px;
+}
+
+.profile-3-img {
+  width: 200px;
+  zoom: 90%;
+  margin-left: -5px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.profile-3-img img {
+  max-height: 100%;
+}
+
+.profile-3-text-title {
+  padding: 0 .25rem;
+  transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.profile-3-text-title:hover {
+  box-shadow: inset 1000px 0 0 0 #00000052;
+  color: #ffffffc7;
+}
+
+.profile-4 {
+  background-image: url("../../../images/Z1Profile4");
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border: 5px solid blue;
+  position: absolute;
+  top: 1050px;
+  margin-left: 150px;
+  overflow: hidden;
+}
+
+.profile-4-text-title {
+  font-family: English-Bold;
+  font-size: 30px;
+  color: #000;
+  position: absolute;
+  margin-left: 350px;
+  top: 1070px;
+}
+
+.profile-4-text {
+  font-family: English;
+  font-size: 20px;
+  color: #6F7171;
+  position: absolute;
+  margin-left: 340px;
+  top: 1120px;
+}
+
+.profile-4-img {
+  width: 200px;
+  zoom: 90%;
+  margin-left: -5px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.profile-4-img img {
+  max-height: 100%;
+}
+
+.profile-4-text-title {
+  padding: 0 .25rem;
+  transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.profile-4-text-title:hover {
+  box-shadow: inset 1000px 0 0 0 #00000052;
+  color: #ffffffc7;
+}
+
+.profile-5 {
+  background-image: url("../../../images/Z1Profile5");
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border: 5px solid blue;
+  position: absolute;
+  top: 1250px;
+  margin-left: 150px;
+  overflow: hidden;
+}
+
+.profile-5-text-title {
+  font-family: English-Bold;
+  font-size: 30px;
+  color: #000;
+  position: absolute;
+  margin-left: 350px;
+  top: 1270px;
+}
+
+.profile-5-text {
+  font-family: English;
+  font-size: 20px;
+  color: #6F7171;
+  position: absolute;
+  margin-left: 340px;
+  top: 1320px;
+}
+
+.profile-5-img {
+  width: 200px;
+  zoom: 90%;
+  margin-left: -5px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.profile-5-img img {
+  max-height: 100%;
+}
+
+.profile-5-text-title {
+  padding: 0 .25rem;
+  transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.profile-5-text-title:hover {
+  box-shadow: inset 1000px 0 0 0 #00000052;
+  color: #ffffffc7;
+}
+
+.profile-6 {
+  background-image: url("../../../images/Z1Profile6");
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border: 5px solid blue;
+  position: absolute;
+  top: 1450px;
+  margin-left: 150px;
+  overflow: hidden;
+}
+
+.profile-6-text-title {
+  font-family: English-Bold;
+  font-size: 30px;
+  color: #000;
+  position: absolute;
+  margin-left: 350px;
+  top: 1470px;
+}
+
+.profile-6-text {
+  font-family: English;
+  font-size: 20px;
+  color: #6F7171;
+  position: absolute;
+  margin-left: 340px;
+  top: 1520px;
+}
+
+.profile-6-img {
+  width: 200px;
+  zoom: 90%;
+  margin-left: -5px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.profile-6-img img {
+  max-height: 100%;
+}
+
+.profile-6-text-title {
+  padding: 0 .25rem;
+  transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.profile-6-text-title:hover {
+  box-shadow: inset 1000px 0 0 0 #00000052;
+  color: #ffffffc7;
+}
+
+.profile-7 {
+  background-image: url("../../../images/Z1Profile7");
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border: 5px solid blue;
+  position: absolute;
+  top: 1650px;
+  margin-left: 150px;
+  overflow: hidden;
+}
+
+.profile-7-text-title {
+  font-family: English-Bold;
+  font-size: 30px;
+  color: #000;
+  position: absolute;
+  margin-left: 350px;
+  top: 1670px;
+}
+
+.profile-7-text {
+  font-family: English;
+  font-size: 20px;
+  color: #6F7171;
+  position: absolute;
+  margin-left: 340px;
+  top: 1720px;
+}
+
+.profile-7-img {
+  width: 200px;
+  zoom: 90%;
+  margin-left: -5px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.profile-7-img img {
+  max-height: 100%;
+}
+
+.profile-7-text-title {
+  padding: 0 .25rem;
+  transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.profile-7-text-title:hover {
+  box-shadow: inset 1000px 0 0 0 #00000052;
+  color: #ffffffc7;
+}
+
+.profile-8 {
+  background-image: url("../../../images/Z1Profile8");
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border: 5px solid blue;
+  position: absolute;
+  top: 1850px;
+  margin-left: 150px;
+  overflow: hidden;
+}
+
+.profile-8-text-title {
+  font-family: English-Bold;
+  font-size: 30px;
+  color: #000;
+  position: absolute;
+  margin-left: 350px;
+  top: 1870px;
+}
+
+.profile-8-text {
+  font-family: English;
+  font-size: 20px;
+  color: #6F7171;
+  position: absolute;
+  margin-left: 340px;
+  top: 1920px;
+}
+
+.profile-8-img {
+  width: 200px;
+  zoom: 90%;
+  margin-left: -5px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.profile-8-img img {
+  max-height: 100%;
+}
+
+.profile-8-text-title {
+  padding: 0 .25rem;
+  transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.profile-8-text-title:hover {
+  box-shadow: inset 1000px 0 0 0 #00000052;
+  color: #ffffffc7;
+}
+
+.profile-9 {
+  background-image: url("../../../images/Z1Profile9");
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  border: 5px solid blue;
+  position: absolute;
+  top: 2050px;
+  margin-left: 150px;
+  overflow: hidden;
+}
+
+.profile-9-text-title {
+  font-family: English-Bold;
+  font-size: 30px;
+  color: #000;
+  position: absolute;
+  margin-left: 350px;
+  top: 2070px;
+}
+
+.profile-9-text {
+  font-family: English;
+  font-size: 20px;
+  color: #6F7171;
+  position: absolute;
+  margin-left: 340px;
+  top: 2120px;
+}
+
+.profile-9-img {
+  width: 200px;
+  zoom: 90%;
+  margin-left: -5px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.profile-9-img img {
+  max-height: 100%;
+}
+
+.profile-9-text-title {
+  padding: 0 .25rem;
+  transition: color .2s ease-in-out, box-shadow .2s ease-in-out;
+}
+
+.profile-9-text-title:hover {
+  box-shadow: inset 1000px 0 0 0 #00000052;
+  color: #ffffffc7;
+}
+
   @media only screen and (max-width: 767px) {
     img-background {
        background-image: url("./../../images/Z1Background2.png");

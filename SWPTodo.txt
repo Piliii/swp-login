@@ -9,4 +9,17 @@ Login & Signup.
 Password reset.
 Make website compatiable with other devices.
 Fix advice.html for phones
-Every teacher gets his own page where he can upload his lectures, information, etc.
+
+
+
+
+
+
+
+
+
+
+
+
+- Every teacher gets his own page where he can upload his lectures, information, etc.
+- Teacher's page
