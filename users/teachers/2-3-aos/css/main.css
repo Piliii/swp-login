@@ -30,7 +30,7 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("./../../../../images/Z2Background1.png");
+    background-image: url("./../../../../images/teachers-backgrounds/2-3-aws.png");
     box-sizing: border-box;
     box-shadow: inset 1070px 200px 1000px 0 #fff;
     -moz-user-select: none;
@@ -100,42 +100,4 @@ html, body {
     position: absolute;
     margin-left: 750px;
     top: -10px;
-}
-
-.activity-1 {
-    width: 1700px;
-    height: 350px;
-    background-color: #fff;
-    position: absolute;
-    margin-left: 15px;
-    top: 85px;
-    border-radius: 50px;
-    background-image: url("./../../../../images/Z2Activity1S1Shadow.png");
-    text-align: center;
-    background-repeat: no-repeat;
-}
-
-.activity-1-text {
-    font-family: Arabic-2;
-    font-size: 35px;
-    color: #fff;
-    position: relative;
-    top: 120px;
-    transition: all 0.3s ease 0s;
-}
-
-.activity-1-text:hover {
-    color: #e9e9e9;
-    font-size: 40px;
-    transition: all 0.3s ease 0s;
-}
-
-.activities-all {
-    width: 1730px;
-    height: 450px;
-    background-color: #2a60f3;
-    position: absolute;
-    margin-left: 90px;
-    top: 450px;
-    border-radius: 50px;
 }

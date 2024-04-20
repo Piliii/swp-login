@@ -9,7 +9,7 @@ Login & Signup.
 Password reset.
 Make website compatiable with other devices.
 Fix advice.html for phones
-
+Other page (The English teams, the exam questions, the school activities, )
 
 
 
@@ -22,4 +22,4 @@ Fix advice.html for phones
 
 
 - Every teacher gets his own page where he can upload his lectures, information, etc.
-- Teacher's page
+- Teacher's page (Don't forget to add istath hussein {former computer science teacher})

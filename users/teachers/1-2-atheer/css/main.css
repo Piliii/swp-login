@@ -1,109 +1,159 @@
-    @font-face {
+@font-face {
     font-family: Arabic;
     src: url('../../../../fonts/NotoSansArabic/NotoSansArabic_SemiCondensed-Medium.ttf');
-    }
+}
         
-    @font-face {
+@font-face {
     font-family: English;
     src: url('../../../../fonts/Janna/Janna-LT-Regular.ttf');
-    }
+}
+
+@font-face {
+    font-family: Arabic-2;
+    src: url('../../../../fonts/Arabic-Ubuntu/alfont_com_Ubuntu-Arabic_R.ttf')
+}
         
-    * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-    
-    .background {
-    padding: 24.3%;
-    background: #2a60f3;
-    }
-
-    .information {
-        position: relative;
-        bottom: 100px;
-        text-align: center;
-    }
-
-    .information-text {
-        font-family: English;
-        font-size: 20px;
-        color: #fff;
-        position: relative;
-        bottom: 535px;
-    }
-
-    .information-text2 {
-        font-family: English;
-        position: relative;
-        bottom: 660px;
-        font-size: 20px;
-        white-space: nowrap;
-        color: #fff;
-    }
-
-    .information-text3 {
-        font-family: English;
-        font-size: 20px;
-        position: relative;
-        bottom: 725px;
-        right: 30px;
-        white-space: nowrap;
-        color: #fff;
-    }
-
-    .information-text4 {
-        font-family: English;
-        font-size: 20px;
-        position: relative;
-        bottom: 760px;
-        right: 52px;
-        text-align: center;
-        white-space: nowrap;
-        color: #fff;
-    }
-
-    .information-text5 {
-        font-family: English;
-        font-size: 20px;
-        color: #fff;
-        position: relative;
-        bottom: 780px;
-        right: 155px;
-        white-space: nowrap;
-    }
-
-    .information-text6 {
-        font-family: English;
-        font-size: 20px;
-        position: relative;
-        bottom: 792px;
-        right: 137px;
-        text-align: center;
-        white-space: nowrap;
-        color: #fff;
-    }
-
-    .line {
-        display: block;
-        position: relative;
-        bottom: 1130px;
-        right: 155px;
-        width: 350px;
-        border: 0;
-        border-top: 1px solid #ccc;
-        margin: 1em 10;
-        padding: 0;
-        }
-
-.SLogo {
-    width: 317px;
-    padding-right: 15px;
-    position: relative;
-    bottom: 425px;
-    left: 345px;
 }
 
-.SLogo img {
-    max-width: 100%;
+html, body {
+    background-color: #2a60f3;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.background {
+    height: 937px;
+    min-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./../../../../images/teachers-backgrounds/1-2-atheer.png");
+    box-sizing: border-box;
+    box-shadow: inset 1070px 200px 1000px 0 #fff;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.profile {
+    width: 210px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.circle {
+    border-radius: 50%;
+    height: 210px;
+    width: 210px;
+    border: 5px solid nothing;
+    box-shadow: 1px -1px 25px 1px rgb(0, 0, 0);
+    position: absolute;
+    bottom: 710px;
+    margin-left: 850px;
+    overflow: hidden;
+}
+
+.information-text {
+    font-family: Arabic-2;
+    font-size: 45px;
+    color: #000;
+    position: absolute;
+    margin-left: -165px;
+    top: 225px;
+}
+ 
+.information-text-2 {
+    font-family: Arabic-2;
+    font-size: 45px;
+    color: #000;
+    position: absolute;
+    margin-left: -190px;
+    top: 275px;
+}
+
+.information-text-3 {
+    font-family: Arabic-2;
+    font-size: 45px;
+    color: #000;
+    position: absolute;
+    margin-left: -205px;
+    top: 330px;
+}
+
+.information-text-4 {
+    font-family: Arabic-2;
+    font-size: 45px;
+    color: #000;
+    position: absolute;
+    margin-left: -190px;
+    top: 380px;
+}
+
+.information-text-5 {
+    font-family: Arabic-2;
+    font-size: 45px;
+    color: #000;
+    position: absolute;
+    margin-left: -350px;
+    top: 430px;
+}
+
+.information-text-6 {
+    font-family: Arabic-2;
+    font-size: 45px;
+    color: #000;
+    position: absolute;
+    margin-left: -300px;
+    top: 480px;
+}
+
+.activities {
+    font-family: English;
+    font-size: 60px;
+    color: #fff;
+    position: relative;
+    top: -10px;
+}
+
+.activity-2 {
+    width: 1700px;
+    height: 250px;
+    background-color: #fff;
+    position: absolute;
+    margin-left: 15px;
+    top: 85px;
+    border-radius: 50px;
+    background-image: url("./../../../../images/Z2Activity2S2Shadow.png");
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.activity-2-text {
+    font-family: Arabic-2;
+    font-size: 35px;
+    color: #fff;
+    position: relative;
+    top: 120px;
+    transition: all 0.3s ease 0s;
+}
+
+.activity-2-text:hover {
+    color: #e9e9e9;
+    font-size: 40px;
+    transition: all 0.3s ease 0s;
+}
+
+.activities-all {
+    width: 1730px;
+    height: 350px;
+    background-color: #2a60f3;
+    position: absolute;
+    margin-left: 90px;
+    top: 550px;
+    border-radius: 50px;
 }
