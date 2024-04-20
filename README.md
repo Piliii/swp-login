@@ -4,7 +4,7 @@ Credits go as followed:
 
 Director & Head of the Development team: Mohammed Nayyef Mohsen - Student in the Second Al-Mutafawakeen Public High School Basra
 
-Developer: Nouran Mohammed Salah - Student in the Second Al-Mutafawakeen Public High School Basra
+Side Developer: Nouran Mohammed Salah - Student in the Second Al-Mutafawakeen Public High School Basra
 
 Designer: Ridha Fawzi Taaha - Student in the Second Al-Mutafawakeen Public High School Basra
 
