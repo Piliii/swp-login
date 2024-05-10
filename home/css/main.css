@@ -33,6 +33,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 /* html::-webkit-scrollbar {
   width: 20px;
 }
@@ -62,19 +63,18 @@ html::-webkit-scrollbar-thumb {
 }
 
 .img-background {
-  height: 100%;
+  height: 100vh;
   background-image: url("./../../images/Z1Background.png");
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   background-size: cover;
   box-sizing: border-box;
-  box-shadow: inset 1070px 200px 1000px 0 #fff;
 }
 
 .Slogo {
-  width: 220px;
-  padding-right: 15px;
-  margin-left: 30px;
+  width: 21vh;
+  padding-right: 15.1vw;
+  margin-left: 1.7vw;
   position: absolute;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -82,13 +82,12 @@ html::-webkit-scrollbar-thumb {
 }
 
 .Slogo img {
-  max-width: 100%;
+  max-width: 21vh;
 }
 
 .img-menu {
-  width: 110px;
-  padding-right: 15px;
-  margin-left: 1760px;
+  width: 5vw;
+  margin-left: 92vw;
   position: absolute;
   -moz-user-select: none;
   -webkit-user-select: none;
@@ -96,22 +95,14 @@ html::-webkit-scrollbar-thumb {
 }
 
 .img-menu img {
-  max-width: 100%;
-}
-
-.upper-bar {
-  width: 100%;
-  height: 10%;
-  box-shadow: -1875px 10px 10px rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 15px;
+  max-width: 5vw;
 }
 
 .EN {
   font-family: English;
-  font-size: 17px;
+  font-size: 1.7vh;
   position: absolute;
-  top: 900px;
+  top: 96vh;
   padding: 0 .25rem;
   color: black;
 }
@@ -121,22 +112,29 @@ html::-webkit-scrollbar-thumb {
   background-image: url("./../../images/Z1SwitchEnglish.png");
 }
 
+.upper-bar {
+  width: 100%;
+  height: 10%;
+  box-shadow: -97.6vw 0.5vw 0.5vw rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0.7vw;
+}
 
 .upper-bar-2 {
   width: 100%;
   height: 10%;
-  box-shadow: 225px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 11.7vw 0.5vw 0.5vw rgba(0, 0, 0, 0.2);
   position: absolute;
-  top: 15px;
+  top: 0.7vw;
 }
 
 .title-1 {
   font-family: English-Bold;
-  font-size: 40px;
+  font-size: 2vw;
   color: #000000;
-  margin-left: 220px;
+  margin-left: 11.4vw;
   position: absolute;
-  bottom: 30px;
+  bottom: 1.5vw;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
@@ -144,11 +142,11 @@ html::-webkit-scrollbar-thumb {
 
 .title-2 {
   font-family: English-Bold;
-  font-size: 35px;
+  font-size: 1.8vw;
   color: #2a60f3;
-  margin-left: 230px;
+  margin-left: 11.9vw;
   position: absolute;
-  top: 35px;
+  top: 1.8vw;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
@@ -156,34 +154,32 @@ html::-webkit-scrollbar-thumb {
 
 .text-title {
   font-family: English-Bold;
-  font-size: 55px;
+  font-size: 2.86vw;
   align-items: right;
   text-align: right;
   color: #000;
   position: absolute;
-  top: 190px;
-  left: 465px;
-  margin-left: 160px;
+  top: 10vw;
+  margin-left: 32.5vw;
 }
 
 .text-1 {
   font-family: English-Bold;
-  font-size: 29px;
+  font-size: 1.5vw;
   align-items: right;
   text-align: right;
   color: #2a60f3;
   position: absolute;
-  top: 270px;
-  left: 50px;
-  margin-right: 780px;
+  top: 14vw;
+  left: 3vw;
+  margin-right: 41vw;
 }
 
 .img-1 {
-  width: 317px;
-  padding-right: 15px;
-  margin-left: 250px;
+  width: 17vw;
+  margin-left: 12.5vw;
   position: relative;
-  top: 390px;
+  top: 20vw;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
@@ -195,20 +191,19 @@ html::-webkit-scrollbar-thumb {
 
 .imgtxt-1 {
   font-family: Arabic;
-  font-size: 35px;
-  color: #000;
+  font-size: 1.8vw;
   position: absolute;
-  bottom: 230px;
-  margin-left: 300px;
+  top: 32.5vw;
+  margin-left: 16vw;
   color: blue;
+  transition: ease 0.3s;
 }
 
 .img-2 {
-  width: 317px;
-  padding-right: 15px;
-  margin-left: 600px;
+  width: 17vw;
+  margin-left: 31vw;
   position: relative;
-  top: 76px;
+  top: 1.8vw;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
@@ -220,21 +215,20 @@ html::-webkit-scrollbar-thumb {
 
 .imgtxt-2 {
   font-family: Arabic;
-  font-size: 35px;
+  font-size: 1.8vw;
   color: #000;
   position: absolute;
-  bottom: 230px;
-  margin-left: 655px;
+  top: 32.5vw;
+  margin-left: 34.5vw;
   color: blue;
+  transition: ease 0.3s;
 }
 
 .img-3 {
-  width: 317px;
-  padding-right: 15px;
-  margin-top: 19px;
-  margin-left: 950px;
+  width: 17vw;
+  margin-left: 49vw;
   position: relative;
-  bottom: 250px;
+  top: -16vw;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
@@ -246,15 +240,36 @@ html::-webkit-scrollbar-thumb {
 
 .imgtxt-3 {
   font-family: Arabic;
-  font-size: 35px;
+  font-size: 1.8vw;
   color: blue;
   position: absolute;
-  bottom: 230px;
-  margin-left: 960px;
+  top: 32.5vw;
+  margin-left: 50.5vw;
+  transition: ease 0.3s;
+}
+
+.imgtxt-1:hover {
+  font-size: 37px;
+  color: rgb(77, 77, 126);
+  display: block;
+  transition: ease 0.3s;
+}
+.imgtxt-2:hover {
+  font-size: 37px;
+  color: rgb(77, 77, 126);
+  display: block;
+  transition: ease 0.3s;
+}
+.imgtxt-3:hover {
+  font-size: 37px;
+  color: rgb(77, 77, 126);
+  display: block;
+  transition: ease 0.3s;
 }
 
 .lower-bar {
-  height: 430px;
+  height: 22.5vw;
+  margin-top: 48.77vw;
   background-color: #2a6bce;
 }
 
@@ -264,7 +279,7 @@ html::-webkit-scrollbar-thumb {
   color: #fff;
   position: absolute;
   margin-left: 1450px;
-  bottom: -190px;
+  bottom: -53vw;
 }
 
 .C {
@@ -273,7 +288,7 @@ html::-webkit-scrollbar-thumb {
   color: #fff;
   position: absolute;
   margin-left: 1560px;
-  bottom: -160px;
+  bottom: -51vw;
 }
 
 .contacts-phonenumber {
@@ -282,7 +297,7 @@ html::-webkit-scrollbar-thumb {
   color: #fff;
   position: absolute;
   margin-left: 857px;
-  bottom: -190px;
+  bottom: -53vw;
 }
 
 .CPN {
@@ -291,7 +306,7 @@ html::-webkit-scrollbar-thumb {
   color: #fff;
   position: absolute;
   margin-left: 850px;
-  bottom: -160px;
+  bottom: -51vw;
 }
 
 .contacts-socialmedia {
@@ -300,7 +315,7 @@ html::-webkit-scrollbar-thumb {
   color: #fff;
   position: absolute;
   margin-left: 1235px;
-  bottom: -190px;
+  bottom: -53vw;
 }
 
 
@@ -310,70 +325,16 @@ html::-webkit-scrollbar-thumb {
   color: #fff;
   position: absolute;
   margin-left: 1200px;
-  bottom: -160px;
+  bottom: -51vw;
 }
 
-.contacts-inquiries {
-  font-family: English;
-  font-size: 21px;
-  color: #fff;
-  position: absolute;
-  margin-left: 330px;
-  bottom: -330px;
-}
-
-.team-1 {
-  font-family: English;
-  font-size: 21px;
-  color: #fff;
-  position: absolute;
-  margin-left: 650px;
-  bottom: -330px;
-}
-
-.team-2 {
-  font-family: English;
-  font-size: 21px;
-  color: #fff;
-  position: absolute;
-  margin-left: 690px;
-  bottom: -360px;
-}
-
-.team-3 {
-  font-family: English;
-  font-size: 21px;
-  color: #fff;
-  position: absolute;
-  margin-left: 790px;
-  bottom: -390px;
-}
-
-.team-4 {
-  font-family: English;
-  font-size: 21px;
-  color: #fff;
-  position: absolute;
-  margin-left: 750px;
-  bottom: -420px;
-}
-
-.OT {
+.L {
   font-family: English-Bold;
   font-size: 30px;
   color: #fff;
   position: absolute;
-  margin-left: 900px;
-  bottom: -300px;
-}
-
-.CI {
-  font-family: English-Bold;
-  font-size: 30px;
-  color: #fff;
-  position: absolute;
-  margin-left: 200px;
-  bottom: -300px;
+  margin-left: 370px;
+  bottom: -51vw;
 }
 
 .location {
@@ -382,16 +343,70 @@ html::-webkit-scrollbar-thumb {
   color: #fff;
   position: absolute;
   margin-left: 50px;
-  bottom: -190px;
+  bottom: -53vw;
 }
 
-.L {
+.CI {
   font-family: English-Bold;
   font-size: 30px;
   color: #fff;
   position: absolute;
-  margin-left: 360px;
-  bottom: -160px;
+  margin-left: 200px;
+  bottom: -61vw;
+}
+
+.contacts-inquiries {
+  font-family: English;
+  font-size: 21px;
+  color: #fff;
+  position: absolute;
+  margin-left: 330px;
+  bottom: -63vw;
+}
+
+.team-1 {
+  font-family: English;
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  margin-left: 650px;
+  bottom: -62.3vw;
+}
+
+.team-2 {
+  font-family: English;
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  margin-left: 690px;
+  bottom: -63.6vw;
+}
+
+.team-3 {
+  font-family: English;
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  margin-left: 790px;
+  bottom: -65.1vw;
+}
+
+.team-4 {
+  font-family: English;
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  margin-left: 750px;
+  bottom: -66.3vw;
+}
+
+.OT {
+  font-family: English-Bold;
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  margin-left: 900px;
+  bottom: -61vw;
 }
 
 .about {
@@ -426,9 +441,10 @@ html::-webkit-scrollbar-thumb {
 }
 
 .version {
+  font-size: 0.9vw;
   font-family: Arabic-2;
+  top: -0.5vw;
   position: absolute;
-  margin-top: -945px;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
@@ -436,24 +452,24 @@ html::-webkit-scrollbar-thumb {
 
 .down-arrow {
   position: absolute;
-  top: calc(100vh - 60px);
-  left: calc(50% - 14px);
+  top: calc(49.5vw - 4vw);
+  left: calc(100vh - 0vw);
   width: 0;
-  height: 32px;
-  border: 2px solid;
-  border-radius: 2px;
+  height: 1.7vw;
+  border: 0.15vw solid;
+  border-radius: 2vw;
 }
 
 .down-arrow:after {
   content: " ";
   position: absolute;
-  top: 12px;
-  left: -10px;
-  width: 16px;
-  height: 16px;
-  border-bottom: 4px solid;
-  border-right: 4px solid;
-  border-radius: 4px;
+  top: 0.5vw;
+  left: -0.5vw;
+  width: 0.85vw;
+  height: 0.9vw;
+  border-bottom: 0.25vw solid;
+  border-right: 0.25vw solid;
+  border-radius: 0.25vw;
   transform: rotateZ(45deg);
 }
 
@@ -471,26 +487,6 @@ html::-webkit-scrollbar-thumb {
 
 .down-arrow {
   animation: jumpInfinite 2.0s infinite;
-}
-
-.imgtxt-3, .imgtxt-2, .imgtxt-1 {
-  /* box-shadow: inset 0 0 0 0 #00000052;
-  color: #00000052;
-  margin: 0 -.25rem; */
-  padding: 0 .25rem;
-  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-.imgtxt-3:hover {
-  box-shadow: inset 1000px 0 0 0 rgba(0, 0, 255, 0.39);
-  color: #fff;
-}
-.imgtxt-2:hover {
-  box-shadow: inset 1000px 0 0 0 rgba(0, 0, 255, 0.39);
-  color: #fff;
-}
-.imgtxt-1:hover {
-  box-shadow: inset 1000px 0 0 0 rgba(0, 0, 255, 0.39);
-  color: #fff;
 }
 
 .team-4, .team-3, .team-2, .team-1, .contacts-socialmedia, .contacts-inquiries, .location {
@@ -534,7 +530,7 @@ html::-webkit-scrollbar-thumb {
   width: 40px;
   border-radius: 15px;
   margin-left: 1265px;
-  top: 1090px;
+  bottom: -53vw;
   position: absolute;
 }
 
@@ -548,6 +544,40 @@ html::-webkit-scrollbar-thumb {
   background: #3B5998;
   color: white;
   transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+}
+
+.D {
+  font-family: English-Bold;
+  font-size: 2vw;
+  position: absolute;
+  margin-left: 81vw;
+  bottom: -61.3vw;
+  transition: ease-in-out 0.3s;
+}
+
+.D:hover {
+  font-size: 2.3vw;
+  transition: ease-in-out 0.3s;
+  animation: rainbow_animation 3s ease-in-out infinite;
+}
+
+.rainbow {
+  background: linear-gradient(to right, #6666ff , #00ff00, #ff3399, #6666ff, #6666ff , #00ff00, #ff3399, #6666ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 7s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+
+@keyframes rainbow_animation {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+      background-position: 100% 0;
+  }
 }
 
 @media only screen and (max-width: 767px) {

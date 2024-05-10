@@ -1,0 +1,93 @@
+@font-face {
+    font-family: English-Bold;
+    src: url("./../../fonts/Janna/Janna-LT-Bold.ttf");
+}
+@font-face {
+    font-family: Arabic;
+    src: url(./../../fonts/Arabic-Ubuntu/alfont_com_Ubuntu-Arabic_R.ttf);
+}
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+    background-color: #2a60f3;
+    text-align: center;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.card {
+    width: 26vw;
+    background-color: white;
+    height: 15.6vw;
+    border-radius: 1.8vw;
+    text-align: center;
+    margin-left: 5.5vw;
+    margin: 13vw 0 0 3.6vw;
+}
+
+.Warning {
+    font-family: English-Bold;
+    font-size: 1vw;
+    color: black;
+}
+
+.card-2 {
+    width: 53.6vw;
+    background-color: white;
+    height: 3.6vw;
+    border-radius: 1.8vw;
+    margin: 2vw 0 0 3.6vw;
+}
+
+.Proceed {
+    font-family: English-Bold;
+    font-size: 1.9vw;
+    color: black;
+    transition: ease 0.3s;
+}
+
+.Proceed:hover {
+    font-family: English-Bold;
+    font-size: 2.4vw;
+    color: black;
+    transition: ease 0.3s;
+    background: linear-gradient(to right, #6666ff , #00ff00, #ff3399, #6666ff, #6666ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow_animation 1.5s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+
+  @keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+  
+    50% {
+        background-position: 100% 0;
+    }
+  }
+
+.card2 {
+    width: 26vw;
+    background-color: white;
+    height: 15.6vw;
+    border-radius: 1.8vw;
+    text-align: center;
+    margin-left: 5.5vw;
+    margin: -21.3vw 0 0 31.25vw;
+}
+
+.Warning2 {
+    font-family: Arabic;
+    font-size: 1.1vw;
+    color: black;
+}

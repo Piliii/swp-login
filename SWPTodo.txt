@@ -7,16 +7,13 @@ Add padding to text so that it finally works when zooming out & in, etc.
 Custom scrollbar.
 Login & Signup.
 Password reset.
-Make website compatiable with other devices.
 Fix advice.html for phones
 Other page (The English teams, the exam questions, the school activities, )
 
 
 
 
-
-
-
+Make website compatiable with other devices.
 
 
 
