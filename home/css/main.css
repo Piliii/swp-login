@@ -225,10 +225,10 @@ html::-webkit-scrollbar-thumb {
 }
 
 .img-3 {
-  width: 17vw;
+  width: 15vw;
   margin-left: 49vw;
   position: relative;
-  top: -16vw;
+  top: -14.5vw;
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
@@ -244,7 +244,7 @@ html::-webkit-scrollbar-thumb {
   color: blue;
   position: absolute;
   top: 32.5vw;
-  margin-left: 50.5vw;
+  margin-left: 55.5vw;
   transition: ease 0.3s;
 }
 
