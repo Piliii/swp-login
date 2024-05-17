@@ -601,8 +601,24 @@ html::-webkit-scrollbar-thumb {
   }
 }
 
-@media only screen and (max-width: 39.9vw) {
-  img-background {
-     background-image: url("./../../images/Z1Background.png");
+/* --------------------------> WARNING: THE BELOW AREA IS ONLY FOR PHONES ONLY! <--------------------------- */
+
+@media only screen and (max-width:26vw) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+
+/* --------------------------> WARNING: THE BELOW AREA IS ONLY FOR TABLETS ONLY! <--------------------------- */
+
+@media only screen and (max-width:41.6vw) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
   }
 }
