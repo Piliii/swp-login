@@ -548,6 +548,23 @@ html::-webkit-scrollbar-thumb {
   color: white;
   transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
 }
+      
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: #2a60f3;
+  text-align: center;
+}
+
+.WIP {
+  font-family: Arabic-2;
+  font-size: 200px;
+  color: #fff;
+}
 
 @media only screen and (max-width: 767px) {
   img-background {

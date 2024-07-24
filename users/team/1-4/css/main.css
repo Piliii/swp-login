@@ -41,8 +41,8 @@ html, body {
 
 .profile {
     width: 200px;
-    margin-left: -46px;
-    zoom: 170%;
+    position: absolute;
+    zoom: 100%;
 }
 
 .circle {
@@ -57,12 +57,16 @@ html, body {
     overflow: hidden;
 }
 
+.information-texts {
+    text-align: center;
+}
+
 .information-text {
     font-family: Arabic-2;
     font-size: 45px;
     color: #000;
     position: absolute;
-    margin-left: 785px;
+    margin-left: -165px;
     top: 225px;
 }
  
@@ -71,7 +75,7 @@ html, body {
     font-size: 45px;
     color: #000;
     position: absolute;
-    margin-left: 775px;
+    margin-left: -175px;
     top: 275px;
 }
 
@@ -80,7 +84,7 @@ html, body {
     font-size: 45px;
     color: #000;
     position: absolute;
-    margin-left: 750px;
+    margin-left: -230px;
     top: 330px;
 }
 
@@ -89,7 +93,7 @@ html, body {
     font-size: 45px;
     color: #000;
     position: absolute;
-    margin-left: 855px;
+    margin-left: 1px;
     top: 380px;
 }
 
@@ -103,84 +107,27 @@ html, body {
 }
 
 .activity-1 {
-    width: 550px;
+    width: 1700px;
     height: 350px;
     background-color: #fff;
     position: absolute;
     margin-left: 15px;
     top: 85px;
     border-radius: 50px;
-    background-image: url("./../../../../images/Z2Activity1Shadow.png");
+    background-image: url("./../../../../images/hamster.png");
     text-align: center;
 }
 
 .activity-1-text {
     font-family: Arabic-2;
     font-size: 35px;
-    color: #fff;
+    color: #474eb1;
     position: relative;
     top: 120px;
     transition: all 0.3s ease 0s;
 }
 
 .activity-1-text:hover {
-    color: #e9e9e9;
-    font-size: 40px;
-    transition: all 0.3s ease 0s;
-}
-
-.activity-2 {
-    width: 550px;
-    height: 350px;
-    background-color: #fff;
-    position: absolute;
-    margin-left: 575px;
-    top: 0px;
-    border-radius: 50px;
-    background-image: url("./../../../../images/Z2Activity2Shadow.png");
-    text-align: center;
-}
-
-.activity-2-text {
-    font-family: Arabic-2;
-    font-size: 35px;
-    color: #fff;
-    position: relative;
-    top: 120px;
-    transition: all 0.3s ease 0s;
-}
-
-.activity-2-text:hover {
-    font-size: 40px;
-    transition: all 0.3s ease 0s;
-}
-.activity-2-text:hover:before {
-    font-size: 35px;
-    transition: all 0.3s ease 0s;
-}
-
-.activity-3 {
-    width: 550px;
-    height: 350px;
-    background-color: #fff;
-    position: absolute;
-    margin-left: 575px;
-    top: 0px;
-    border-radius: 50px;
-    background-image: url("./../../../../images/Z2Activity3Shadow.png");
-    text-align: center;
-}
-
-.activity-3-text {
-    font-family: Arabic-2;
-    font-size: 35px;
-    color: #fff;
-    position: relative;
-    top: 120px;
-    transition: all 0.3s ease 0s;
-}
-
-.activity-3-text:hover {
     color: #e9e9e9;
     font-size: 40px;
     transition: all 0.3s ease 0s;

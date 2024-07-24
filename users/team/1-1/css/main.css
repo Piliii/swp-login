@@ -22,6 +22,7 @@
 html, body {
     background-color: #2a60f3;
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 .background {
