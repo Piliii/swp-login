@@ -1,0 +1,90 @@
+
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+:root {
+  --gradient: linear-gradient(90deg, #e952ee, pink);
+
+}
+
+body {
+  font-family: 'Open', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.125em;
+  background-size: 200%;
+  background-image: var(--gradient);
+  animation: bg-animation 2s infinite;
+  overflow: hidden;
+}
+
+@keyframes bg-animation {
+  0% {background-position: left}
+  50% {background-position: right}
+  100% {background-position: left}
+}
+
+/* body {
+  background: #f185e8;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+} */
+
+.card {
+  background: #fdfdfd;
+  border-radius: 20px;
+  height: 85vh;
+  width: 80vw;
+  box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.16), 10px 10px 6px rgba(0, 0, 0, 0.23);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  overflow: hidden;
+}
+
+@media only screen and (min-width: 1000px) {
+  .card {
+    flex-direction: row-reverse;
+  }
+  .card img.birthday {
+    width: 100%;
+    max-width: 50vw;
+    max-height: unset;
+  }
+}
+
+@media only screen and (max-height: 640px) {
+  .card {
+    flex-direction: row-reverse;
+  }
+  .card img.birthday {
+    width: 100%;
+    max-width: 50vw;
+    max-height: unset;
+  }
+}
+
+img.birthday {
+  max-height: 40vh;
+}
+
+.text {
+  padding: 1em;
+}
+
+.muted {
+  opacity: 0.8;
+}
+
+.space {
+  height: 100px;
+}
